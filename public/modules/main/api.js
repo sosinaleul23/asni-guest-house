@@ -10,7 +10,7 @@ window.AsniApp = window.AsniApp || {};
   'use strict';
   
   const KEYS = App.Keys;
-  const DEFAULT_API = 'https://asni-guest-house.fikrewa7.workers.dev';
+  const DEFAULT_API = 'https://asni-guest-house.dlul41561.workers.dev';
   const TABLES = App.Tables;
   
   let apiBase = (localStorage.getItem(KEYS.worker) || DEFAULT_API).replace(/\/$/, '');
